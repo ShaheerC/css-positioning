@@ -27,3 +27,41 @@ figure {
   width: 50%;
   margin: 40px auto;
 }
+
+.film{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 1em;
+  border: 1px solid grey;
+  padding: 15px;
+}
+
+.film figure{
+  position: relative;
+  width: 100%;
+}
+
+.action-watch-later{
+  color: red;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+
+.film-details{
+  position: relative;
+}
+.action-like{
+  color: red;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.film-description{
+  padding: 10px;
+}
+
+.film-title{
+  padding: 10px;
+}
